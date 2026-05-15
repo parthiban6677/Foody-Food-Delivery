@@ -1,0 +1,154 @@
+.container-add {
+  margin-top: -20px;
+  margin-right: 450px;
+}
+
+.add-name {
+  background-color: aliceblue;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  margin-left: 29px;
+  color: black;
+}
+
+.add-description {
+  width: 300px;
+  background-color: aliceblue;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  height: 50px;
+  margin-left: 160px;
+  color: black;
+}
+
+.upload-preview {
+  width: 150px;
+  height: auto;
+  object-fit: contain;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #ffffff;
+  padding: 3px;
+
+}
+
+.product-add {
+  padding: 10px;
+}
+
+.select-add {
+  width: 200px;
+  margin-left: 40px;
+  background-color: #ffff;
+  color: black;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.price-add {
+  width: 200px;
+  margin-left: 43px;
+  background-color: #ffffff;
+  color: black;
+  padding: 5px;
+  border-radius: 4px;
+  border: none;
+}
+
+
+
+.all-food{
+
+  display: flex;
+}
+.food-list-container {
+  width: calc(100% - 210px);
+  margin-left: 200px;
+  margin-top: -20px;
+}
+
+/* Heading */
+.food-list-container h2 {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 800;
+  color: #fff;
+  margin-bottom: 35px;
+}
+
+.food-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 35px;
+}
+
+.food-card {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(12px);
+  border-radius: 18px;
+  padding: 20px;
+  text-align: center;
+  width: 90%;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+
+
+}
+
+
+
+.food-card img {
+  width: 100%;
+  height: 170px;
+  border-radius: 14px;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+
+.food-card h3 {
+  font-size: 20px;
+  color: #b40000;
+  margin-bottom: 5px;
+}
+
+.category {
+  color: #eee;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.price {
+  color: #01ff6b;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 12px;
+  background-color: #47504b;
+  border-radius: 30px;
+  
+}
+
+
+/* ------------------ REMOVE BUTTON ------------------ */
+.remove-btn {
+  background: rgba(255, 0, 0, 0.15);
+  border: none;
+  padding: 12px;
+  border-radius: 12px;
+  cursor: pointer;
+
+  font-size: 24px;
+  color: red;
+  transition: 0.25s ease;
+}
+
+.remove-btn:hover {
+  background: red;
+  color: white;
+  transform: scale(1.2);
+}
+.image-remove{
+  width: 20px;
+}

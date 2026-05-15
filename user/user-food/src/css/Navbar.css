@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.navbar {
+  width: 100%;
+  height: 80px;
+  padding: 0px 40px;
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+
+}
+
+
+.navbar .logo {
+  width: 150px;
+  height: 30px;
+
+}
+
+.navbar-menu {
+  display: flex;
+  gap: 32px;
+  list-style: none;
+  font-size: 18px;
+  color: #000000;
+  font-weight: 500;
+  margin-left: 14%;
+
+}
+
+.navbar-menu a {
+  text-decoration: none;
+  color: #000000;
+  transition: .3s;
+}
+
+.navbar-menu a:hover {
+  color: tomato;
+}
+
+.navbar-menu .active {
+  color: tomato;
+  border-bottom: 3px solid tomato;
+  padding-bottom: 5px;
+}
+
+.order {
+  width: 20px;
+}
+
+.logout {
+  width: 20px;
+}
+
+.logout-name {
+  margin-top: -20px;
+  gap: 10px;
+
+}
+
+.order-name {
+  gap: 10px;
+}
+
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+
+
+}
+
+.notifi {
+  margin-left: 250px;
+  font-size: 22px;
+  color: tomato;
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 20px;
+}
+
+
+.navbar-search-icon .dot {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: tomato;
+  border-radius: 50%;
+  top: -5px;
+  right: -5px;
+}
+
+
+.navbar-profile {
+  position: relative;
+
+}
+
+.navbar-profile {
+  position: relative;
+  cursor: pointer;
+}
+.profile{
+  margin-left: 22px;
+  border: 1px solid black;
+  padding: 9px;
+  border-radius: 50px;
+  color: tomato;
+}
+
+.nav-profile-dropdown {
+  position: absolute;
+  right: 0;
+  top: 45px;
+  background: #fff;
+  border-radius: 8px;
+  padding: 10px;
+  width: 160px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  z-index: 100;
+}
+
+.nav-profile-dropdown li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.nav-profile-dropdown li:hover {
+  background: #f5f5f5;
+}
+
+
+.nav-profile-dropdown li {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+   transition: 0.3s ease;
+
+}
+
+.nav-profile-dropdown li:hover {
+  color: tomato;
+}
+
+.signup{
+  margin-left: 20px;
+  margin-top: -10px;
+  color: rgb(255, 255, 255);
+  background-color: tomato;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+@media (max-width: 900px) {
+  .navbar-menu {
+    gap: 20px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 750px) {
+  .navbar-menu {
+    display: none;
+  }
+}

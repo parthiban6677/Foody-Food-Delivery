@@ -1,0 +1,71 @@
+.sidenav {
+  width: 200px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #3f2715;
+  padding: 20px;
+  box-sizing: border-box;
+  color: white;
+}
+
+.sidenav-logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.sidenav-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidenav-menu li {
+  margin-bottom: 20px;
+}
+
+.sidenav-menu li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  transition: all 0.3s;
+}
+
+.sidenav-menu li a:hover {
+  color: #333;
+  padding-left: 8px;
+}
+
+.active-link {
+  background-color: white;
+  color: #ff6a00 !important;
+  font-weight: bold;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+/* Normal Link */
+.sidenav-menu li a {
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  display: block;
+  padding: 8px 10px;
+  border-radius: 6px;
+  transition: 0.3s ease;
+}
+
+/* Hover Effect */
+.sidenav-menu li a:hover {
+  background-color: rgb(255, 255, 255);
+  padding-left: 15px;   
+  cursor: pointer;
+}
+
+
+.active-link {
+  background-color: rgb(255, 255, 255);
+  color: #ff6a00 ;
+  font-weight: bold;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
