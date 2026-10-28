@@ -25,7 +25,7 @@ const Login = () => {
 
       if (data.success) {
         toast.success("Login Successful");
-        localStorage.setItem("token",data.token)
+        localStorage.setItem("token", data.token)
         navigate("/Additems");
       }
       else {
